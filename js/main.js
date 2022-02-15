@@ -16,9 +16,6 @@
 
 
 
-
-
-
 const submitForm = (event) => {  // definicja funkcji wywoływanej "clickiem"
     event.preventDefault(); // zatrzymanie eventu
 
@@ -28,7 +25,7 @@ const submitForm = (event) => {  // definicja funkcji wywoływanej "clickiem"
     console.log(firstName.value + lastName.value);
 }
 
-let form = document.getElementById('form'); // umieszczenie odniesienia formularza w zmiennej
+let form = document.getElementById('form'); // umieszczenie odniesienia formularza do zmiennej
 
 form.addEventListener('submit', submitForm); // podpięcie metody 'eventListener' do formularza w zmiennej
 
